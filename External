@@ -1,0 +1,16 @@
+<html>
+
+<body>
+    <p>Adding JS as Seperate File</p>
+    <button type="button" onclick="myFunction()">Click Here</button>
+    <p id="demo"></p>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
+
+function myFunction() {
+    var a = 4;
+    document.getElementById("demo").innerHTML = a*a;
+}
